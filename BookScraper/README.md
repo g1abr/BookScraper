@@ -61,9 +61,9 @@ http://127.0.0.1:5000
 
 Ejecutar:
 
-```bash
+bash
 python -m pytest -v
-```
+
 
 ## Fuente de información
 
