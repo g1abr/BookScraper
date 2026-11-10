@@ -1,76 +1,47 @@
-
 # BookScraper
 
 ## Descripción
 
-BookScraper es una aplicación académica desarrollada en Python que utiliza técnicas de web scraping para extraer información de libros publicados en Books to Scrape.
+BookScraper es una aplicación desarrollada en Python que permite extraer información de libros del sitio web Books to Scrape.
 
-La aplicación recopila información de diez libros y permite comparar sus precios, valoraciones y disponibilidad.
+El programa obtiene información como el título, precio, disponibilidad y valoración de los libros. Los datos se procesan y se presentan mediante una aplicación web desarrollada con Flask.
 
 ## Tecnologías utilizadas
 
-- Python
-- Requests
-- BeautifulSoup
-- Flask
-- HTML y CSS
-- Git y GitHub
-- GitHub Actions
-- Pytest
-
-## Funcionalidades
-
-- Extracción de información de libros.
-- Obtención de títulos, precios, valoraciones y disponibilidad.
-- Generación de un archivo CSV.
-- Generación de una página HTML.
-- Comparación de precios.
-- Visualización de resultados mediante Flask.
+- Python: lenguaje de programación.
+- Requests: permite realizar solicitudes HTTP.
+- BeautifulSoup: facilita la extracción de información del HTML.
+- Flask: permite desarrollar la aplicación web.
+- Pytest: permite ejecutar pruebas automatizadas.
 
 ## Instalación
 
-Clonar el repositorio:
-
-```bash
-git clone URL_DEL_REPOSITORIO
-```
-
-Ingresar a la carpeta del proyecto:
-
-```bash
-cd BookScraper
-```
-
-Instalar dependencias:
+1. Clonar o descargar el repositorio.
+2. Abrir una terminal en la carpeta `BookScraper`.
+3. Instalar las dependencias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Ejecutar la aplicación:
+## Ejecución
+
+Ejecutar el siguiente comando:
 
 ```bash
 python app.py
 ```
 
-Abrir en el navegador:
+Después, abrir en el navegador la dirección local que indique Flask, normalmente:
 
-http://127.0.0.1:5000
+`http://127.0.0.1:5000/`
 
 ## Pruebas automatizadas
 
-Ejecutar:
+Desde la carpeta principal del proyecto, ejecutar:
 
-bash
+```bash
 python -m pytest -v
+```
 
-
-## Fuente de información
-
-https://books.toscrape.com/
-
-## Autora
-
-Gabriela Andrea Machado Silva
-
-Proyecto académico - IU Digital de Antioquia.
+Las pruebas permiten verificar que la aplicación se encuentre creada y que la página principal responda correctamente.
